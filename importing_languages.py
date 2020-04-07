@@ -1,4 +1,7 @@
-# Import the English language class
+# Import the English class from spacy.lang.en and 
+# create the nlp object.
+# Create a doc and print its text.
+
 from spacy.lang.en import English
 
 # Create the nlp object
@@ -11,6 +14,8 @@ doc = nlp("This is a sentence.")
 print(doc.text)
 
 # Import the German language class
+# do same
+
 from spacy.lang.de import German
 
 # Create the nlp object
@@ -23,6 +28,8 @@ doc = nlp("Liebe Grüße!")
 print(doc.text)
 
 # Import the Spanish language class
+# do same
+
 from spacy.lang.es import Spanish
 
 # Create the nlp object
